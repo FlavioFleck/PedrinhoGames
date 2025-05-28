@@ -1,0 +1,23 @@
+<div class="container">
+
+    <div class="form-box">
+
+        <h2 class="title">Envie sua mensagem</h2>
+
+        <form id="contact_form">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="text" name="subject" placeholder="Assunto" required>
+            <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar mensagem</button>
+
+            <script>
+                document.getElementById('contact_form').addEventListener('submit', function(e) {
+                    e.preventDefault(); 
+                    window.location.href = 'thanks.html'; 
+                });
+            </script>
+
+        </form>
+    </div>
+</div>
