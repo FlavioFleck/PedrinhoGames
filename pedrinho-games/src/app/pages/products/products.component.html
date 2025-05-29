@@ -1,10 +1,35 @@
 <main>
     <div class="search-container">
         <h1>Catálogo</h1>
-        <input type="search" name="" id="game-search-bar" placeholder="Procure um jogo ou palavra-chave">
+        
+        <input id="game-search-bar" type="search" [(ngModel)]="searchTerm" placeholder="Procure um jogo ou palavra-chave">
     </div>
 
-    <ul class="games-container">
+    <ul class="games-container" *ngIf="filteredGames.length > 0; else noResults" > 
+        <li class="game" *ngFor="let game of filteredGames">
+       
+            <img [src]="game.img" class="game-image">
+            
+            <h3 class="game-title">{{ game.title }}</h3>
+            
+            <span class="game-plataform">{{ game.platform }}</span>
+            
+            <div class="game-price">
+                
+                <h4>R${{ game.price }},00</h4>
+                
+                <button class="btn-default cart-button">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+            
+            </div>
+        </li>
     </ul>
+
+    <ng-template #noResults>
+        <div class="no-results">
+            <p>Nenhum jogo encontrado.</p>
+        </div>
+    </ng-template>
     
 </main>

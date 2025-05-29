@@ -31,8 +31,7 @@
               "src/scripts/header.js",
               "src/scripts/home.js",
               "src/scripts/app.js",
-              "src/scripts/cart.js",
-              "src/scripts/produtos.js"              
+              "src/scripts/cart.js"             
             ]
           },
           "configurations": {

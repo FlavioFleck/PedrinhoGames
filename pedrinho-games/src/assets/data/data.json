@@ -1,90 +1,96 @@
 [
     {
-        "img": "src/assets/game7.jpg",
+        "img": "assets/images/game7.jpg",
         "title": "Alan Wake 2",
         "platform": "PS5",
         "price": 200
     },
     {
-        "img": "src/assets/game8.jpg",
+        "img": "assets/images/game8.jpg",
         "title": "Batman: Arkham Knight",
         "platform": "Xbox",
         "price": 79
     },
     {
-        "img": "src/assets/game1.jpg",
+        "img": "assets/images/game1.jpg",
         "title": "Clair Obscur: Expedition 33",
         "platform": "Steam",
         "price": 250
     },
     {
-        "img": "src/assets/game10.jpg",
+        "img": "assets/images/game10.jpg",
         "title": "Elden Ring",
         "platform": "Steam",
         "price": 200
     },
     {
-        "img": "src/assets/game12.jpg",
+        "img": "assets/images/game12.jpg",
         "title": "Ghost of Tsushima",
         "platform": "PS5",
         "price": 199
     },
     {
-        "img": "src/assets/game4.jpg",
+        "img": "assets/images/game4.jpg",
         "title": "God of War: Ragnarok",
         "platform": "PS5",
         "price": 349
     },
     {
-        "img": "src/assets/game14.jpg",
+        "img": "assets/images/game14.jpg",
         "title": "Hogwarts Legacy",
         "platform": "Steam",
         "price": 139
     },
     {
-        "img": "src/assets/game9.jpg",
+        "img": "assets/images/game9.jpg",
         "title": "Hollow Knight: Silk Song",
         "platform": "Steam",
         "price": 59
     },
     {
-        "img": "src/assets/game6.png",
+        "img": "assets/images/game6.png",
         "title": "Lego Marvel Super Heroes",
         "platform": "Steam",
         "price": 30
     },
     {
-        "img": "src/assets/game13.jpg",
+        "img": "assets/images/game13.jpg",
         "title": "Life is Strange: Remastered Collection",
         "platform": "Steam",
         "price": 89
     },
     {
-        "img": "src/assets/game3.jpg",
+        "img": "assets/images/game3.jpg",
         "title": "Lost Records: Bloom & Rage",
         "platform": "PS5",
         "price": 215
     },
     {
-        "img": "src/assets/game11.jpg",
+        "img": "assets/images/game11.jpg",
         "title": "Marvel's Spider-Man: Remastered",
         "platform": "Steam",
         "price": 199
     },
+        {
+        "img": "assets/images/game16.jpg",
+        "title": "Resident Evil 4 Remake",
+        "platform": "Steam",
+        "price": 250
+    },
     {
-        "img": "src/assets/game15.jpg",
+        "img": "assets/images/game15.jpg",
         "title": "Split Fiction",
         "platform": "Steam",
         "price": 149
     },
     {
-        "img": "src/assets/game2.jpg",
+        "img": "assets/images/game2.jpg",
         "title": "The Last Of Us Part II Remastered",
         "platform": "Steam",
         "price": 250
     },
     {
-        "img": "src/assets/game5.png",
+        "img": "assets/images/game5.png",
         "title": "Uncharted: Coleção Legado dos Ladrões",
         "platform": "Steam",
         "price": 250

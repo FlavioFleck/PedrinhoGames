@@ -1,5 +1,8 @@
 main {
-    padding: 0px 2%;
+    padding: 0 2%;
+    min-height: 80vh; 
+    display: flex;
+    flex-direction: column;
 }
 
 .search-container {
@@ -16,18 +19,27 @@ main {
 }
 
 #game-search-bar {
-    width: 40%;
+    width: 100%;
+    max-width: 500px;
     padding: 10px 25px;
     border: 1px solid black;
     border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.no-results {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 18px;
+  color: #888;
 }
 
 .games-container {
     display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 40px 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+    gap: 20px;
+    padding: 40px 0;
+    justify-content: center;
 }
 
 .game {
@@ -36,20 +48,27 @@ main {
     align-items: center;
     border-radius: 20px;
     gap: 18px;
+    max-width: 350px; 
     width: 100%;
-    height: 100%;
     padding: 20px;
     background-color: #ffffff;
-    /* border: 1px solid black; */
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.15);
 }
 
 .game-image {
     width: 100%;
+    max-height: 300px; 
+    object-fit: cover;
 }
 
 .game-title {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .game-description {
@@ -61,4 +80,25 @@ main {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .search-container h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container h1 {
+        font-size: 24px;
+    }
+
+    .game-title {
+        font-size: 16px;
+    }
+
+    .game-price {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

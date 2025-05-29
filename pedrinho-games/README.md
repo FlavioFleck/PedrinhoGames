@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PedrinhoGames
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
@@ -57,3 +58,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# PedrinhoGames
+>>>>>>> 9c6307cce2a1ecd256a6c34748c498deac567d13
