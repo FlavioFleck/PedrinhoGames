@@ -95,6 +95,10 @@ section {
     color: white;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 /*----------------------GAME CATALOG----------------------*/
@@ -160,6 +164,58 @@ section {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+/* --------------------------RESPONSIVIDADE-------------------------- */
+
+@media (max-width: 1024px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #cta {
+        width: 100%;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #banner {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #banner img {
+        display: none;
+        width: 80%;
+        height: auto;
+    }
+
+    #games1, #games2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .game {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .game {
+        width: 90%; 
+    }
+
+    #cta .title {
+        font-size: 2.5rem;
+    }
+
+    .section-title,
+    .section-subtitle {
+        text-align: center;
+    }
 }
 
 

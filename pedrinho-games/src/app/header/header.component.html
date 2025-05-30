@@ -1,25 +1,42 @@
 <header>
     
     <nav id="navbar">
-        <li id="nav_logo_active">
+    
+    <div id="nav_logo_desktop" class="logo-desktop">
+        <a routerLink="/">
+            <i class="fa-solid fa-gamepad" id="nav_logo"> Pedrinho_GAMES</i>
+        </a>
+    </div>
+    
+
+    <div class="mobile-header-wrapper">
+        <div id="nav_logo_active">
             <a routerLink="/">
                 <i class="fa-solid fa-gamepad" id="nav_logo"> Pedrinho_GAMES</i>
             </a>
-        </li>
+        </div>
 
-    <ul class="nav-itens-desktop">
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-            <a routerLink="/">Início</a>
-        </li>
-      
-        <li class="nav-item" routerLinkActive="active">
-            <a routerLink="/produtos">Produtos</a>
-        </li>
-      
-        <li class="nav-item" routerLinkActive="active">
-            <a routerLink="/contato">Contato</a>
-        </li>
-    </ul>
+        <div class="mobile-top-actions">
+            <a routerLink="/login" class="btn-default btn-color login-mobile">Iniciar sessão</a>
+            <button class="menu-toggle" (click)="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </div>   
+
+        <ul class="nav-itens-desktop">
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                <a routerLink="/">Início</a>
+            </li>
+        
+            <li class="nav-item" routerLinkActive="active">
+                <a routerLink="/produtos">Produtos</a>
+            </li>
+        
+            <li class="nav-item" routerLinkActive="active">
+                <a routerLink="/contato">Contato</a>
+            </li>
+        </ul>
         
         <div id="mobile-menu" [class.open]="menuOpen">
             <ul>
@@ -34,10 +51,6 @@
                 </li>
             </ul>
         </div>
-        
-        <button class="menu-toggle" (click)="toggleMenu()">
-            <i class="fa-solid fa-bars"></i>
-        </button>                 
 
         <div class="nav-actions">
 
