@@ -2,14 +2,14 @@
     {
         "id": 1,
         "images": {
-            "cardImg": "assets/images/game7.jpg",
-            "pageImg": ""
+            "cardImg": "assets/images/loja/game7.jpg",
+            "pageImg": "assets/images/produto/alan_wake_2.jpg"
         },
         "title": "Alan Wake 2",
         "platform": "PS5",
         "price": 200,
         "slug": "alan-wake-2",
-        "description": "description",
+        "description": "Saga Anderson chega para investigar assassinatos ritualísticos em uma pequena cidade. Alan Wake escreve uma história sombria para moldar a realidade ao seu redor. Esses dois heróis estão conectados de alguma forma. Eles podem se tornar os heróis que precisam ser?",
         "requirements": {
             "recommended": "Recomendados",
             "minimun": " Minimo"
@@ -18,7 +18,7 @@
     {
         "id": 2,
         "images": {
-            "cardImg": "assets/images/game8.jpg",
+            "cardImg": "assets/images/loja/game8.jpg",
             "pageImg": ""
         },
         "title": "Batman: Arkham Knight",
@@ -34,24 +34,24 @@
     {
         "id": 3,
         "images": {
-            "cardImg": "assets/images/game1.jpg",
-            "pageImg": ""
+            "cardImg": "assets/images/loja/game1.jpg",
+            "pageImg": "assets/images/produto/clair_obscur.jpg"
         },
         "title": "Clair Obscur: Expedition 33",
         "platform": "Steam",
         "price": 250,
         "slug": "clair-obscur-expedition-33",
-        "description": "description",
+        "description": "Clair Obscur: Expedition 33 é um RPG inovador em turnos com mecânicas singulares em tempo real, que tornam as batalhas mais envolventes e viciantes do que nunca. Explore um mundo fantástico, inspirado na Belle Époque da França, e enfrente os mais terríveis inimigos. Uma vez por ano, a Artífice desperta e pinta em seu monólito. Ela pinta o número amaldiçoado.\n\nE todos com aquela idade viram fumaça e desaparecem. Ano após ano, um número menor é pintado e mais de nós somos apagados. Amanhã, ela despertará e pintará '33'. E amanhã, partiremos em nossa missão final: destruir a Artífice, para que ela nunca mais possa pintar a morte.\n\nSomos a Expedição 33.",
         "requirements": {
             "recommended": "Recomendados",
-            "minimun": " Minimo"
+            "minimun": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10\nProcessador: Intel Core i7-8700K / AMD Ryzen 5 1600X\nMemória: 8 GB de RAM\nPlaca de vídeo: NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB\nDirectX: Versão 12\nArmazenamento: 55 GB de espaço disponível\nOutras observações: SSD necessário.\nAs especificações mínimas permitem um jogo a 1080p 30FPS em configurações baixas."
         }
     },
     {
         "id": 4,
         "images": {
-            "cardImg": "assets/images/game10.jpg",
-            "pageImg": "assets/images/elden_ring.jpg"
+            "cardImg": "assets/images/loja/game10.jpg",
+            "pageImg": "assets/images/produto/elden_ring.jpg"
         },
         "title": "Elden Ring",
         "platform": "Steam",
@@ -66,7 +66,7 @@
     {
         "id": 5,
         "images": {
-            "cardImg": "assets/images/game12.jpg",
+            "cardImg": "assets/images/loja/game12.jpg",
             "pageImg": ""
         },
         "title": "Ghost of Tsushima",
@@ -81,7 +81,7 @@
     },
     {   "id": 6,
         "images": {
-            "cardImg": "assets/images/game4.jpg",
+            "cardImg": "assets/images/loja/game4.jpg",
             "pageImg": ""
         },
         "title": "God of War: Ragnarok",
@@ -97,7 +97,7 @@
     {
         "id": 7,
         "images": {
-            "cardImg": "assets/images/game14.jpg",
+            "cardImg": "assets/images/loja/game14.jpg",
             "pageImg": ""
         },
         "title": "Hogwarts Legacy",
@@ -113,7 +113,7 @@
     {
         "id": 8,
         "images": {
-            "cardImg": "assets/images/game9.jpg",
+            "cardImg": "assets/images/loja/game9.jpg",
             "pageImg": ""
         },
         "title": "Hollow Knight: Silk Song",
@@ -129,7 +129,7 @@
     {
         "id": 9,
         "images": {
-            "cardImg": "assets/images/game6.png",
+            "cardImg": "assets/images/loja/game6.png",
             "pageImg": ""
         },
         "title": "Lego Marvel Super Heroes",
@@ -145,7 +145,7 @@
     {
         "id": 10,
         "images": {
-            "cardImg": "assets/images/game13.jpg",
+            "cardImg": "assets/images/loja/game13.jpg",
             "pageImg": ""
         },
         "title": "Life is Strange: Remastered Collection",
@@ -161,7 +161,7 @@
     {
         "id": 11,
         "images": {
-            "cardImg": "assets/images/game3.jpg",
+            "cardImg": "assets/images/loja/game3.jpg",
             "pageImg": ""
         },
         "title": "Lost Records: Bloom & Rage",
@@ -177,7 +177,7 @@
     {
         "id": 12,
         "images": {
-            "cardImg": "assets/images/game11.jpg",
+            "cardImg": "assets/images/loja/game11.jpg",
             "pageImg": ""
         },
         "title": "Marvel's Spider-Man: Remastered",
@@ -193,7 +193,7 @@
     {
         "id": 13,
         "images": {
-            "cardImg": "assets/images/game16.jpg",
+            "cardImg": "assets/images/loja/game16.jpg",
             "pageImg": ""
         },
         "title": "Resident Evil 4 Remake",
@@ -209,7 +209,7 @@
     {
         "id": 14,
         "images": {
-            "cardImg": "assets/images/game15.jpg",
+            "cardImg": "assets/images/loja/game15.jpg",
             "pageImg": ""
         },
         "title": "Split Fiction",
@@ -225,7 +225,7 @@
     {
         "id": 15,
         "images": {
-            "cardImg": "assets/images/game2.jpg",
+            "cardImg": "assets/images/loja/game2.jpg",
             "pageImg": ""
         },
         "title": "The Last Of Us Part II Remastered",
@@ -241,7 +241,7 @@
     {
         "id": 16,
         "images": {
-            "cardImg": "assets/images/game5.png",
+            "cardImg": "assets/images/loja/game5.png",
             "pageImg": ""
         },
         "title": "Uncharted: Legacy of Thieves Collection",
