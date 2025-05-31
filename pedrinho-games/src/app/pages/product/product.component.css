@@ -9,7 +9,8 @@
 
 .buy-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
   width: 100%;
 }
 .img-container {
@@ -20,7 +21,7 @@
 }
 
 .img-container img {
-  max-width: 400px;
+  /* max-width: 400px; */
   width: 100%;
   border-radius: 10px;
 }
@@ -62,7 +63,12 @@ input[type="number"] {
   margin-bottom: 20px;
 }
 
-.btn-buy {
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-default {
   width: 100%;
   background-color: #0F7EFD;
   color: white;
@@ -71,6 +77,12 @@ input[type="number"] {
   border-radius: 8px;
   cursor: pointer;
   margin-bottom: 20px;
+}
+
+.btn-cart {
+  border: 2px solid #0F7EFD;
+  background-color: transparent;
+  color: #0F7EFD;
 }
 
 .additional-info {
