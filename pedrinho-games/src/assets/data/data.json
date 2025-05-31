@@ -154,8 +154,8 @@
         "slug": "life-is-strange-remastered-collection",
         "description": "Vivencie a história de Life is Strange, vencedor do BAFTA, agora numa belíssima remasterização com visuais e animação aprimorados usando tecnologia de captura de movimento.",
         "requirements": {
-            "recommended": "Recomendados",
-            "minimun": " Minimo"
+            "recommended": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10\nProcessador: AMD FX-8350, 4.2 GHz / Intel Core i5-2400, 3.1 GHz\nMemória: 4 GB de RAM\nPlaca de vídeo: Radeon RX 580, 4 GB / GeForce GTX 1060, 6 GB\nDirectX: Versão 11\nArmazenamento: 42 GB de espaço disponível\nOutras observações: 1080p / 60fps / High settings",
+            "minimun": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10\nProcessador: AMD Phenom II X4 965, 3.2 GHz / Intel Core i3-2100, 3.1 GHz\nMemória: 4 GB de RAM\nPlaca de vídeo: Radeon R7 250x, 1GB / GeForce GTX 460, 2 GB\nDirectX: Versão 11\nArmazenamento: 42 GB de espaço disponível\nOutras observações: 720p / 30fps / Low settings"
         }
     },
     {

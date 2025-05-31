@@ -1,8 +1,24 @@
-
-<main id="product-details" *ngIf="game">
+<main class="main" *ngIf="game">
     <div class="product-container">
-        <div class="product-image">
-            <img [src]="game.images.pageImg" alt="Elden Ring">
+        <div class="buy-section">
+            <div class="img-container">
+                <img [src]="game.images.pageImg" alt="Elden Ring">
+            </div>
+            
+            <div class="buy-container">
+                <h1>{{ game.title }}</h1>
+                <p class="product-price">R${{ game.price }},00</p>
+                <p class="product-description" style="white-space: pre-line;">{{game.description}}</p>
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" value="1" min="1">
+                <button class="btn-default btn-buy">Adicionar ao carrinho</button>
+                <div class="additional-info">
+                    <p><i class="fa-solid fa-truck"></i> Frete grátis para todo o Brasil</p>
+                    <p><i class="fa-solid fa-lock"></i> Compra segura</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-info">
             <div class="requisitos" *ngIf="game.platform == 'Steam'">
                 <strong id="requisitos">REQUISITOS</strong><br><br>
                 <strong>MÍNIMOS:</strong><br>
@@ -12,21 +28,6 @@
                 <strong>RECOMENDADOS:</strong> <br>
                 <p style="white-space: pre-line;">{{ game.requirements.recommended }}</p>
                 
-            </div>
-        </div>
-        <div class="product-info">
-            <h1>{{ game.title }}</h1>
-            <p class="product-price">R${{ game.price }},00</p>
-            <p class="product-description" style="white-space: pre-line;">{{game.description}}</p>
-
-            <label for="quantidade">Quantidade:</label>
-            <input type="number" id="quantidade" value="1" min="1">
-
-            <button class="btn-default btn-buy">Adicionar ao carrinho</button>
-
-            <div class="additional-info">
-                <!-- <p><i class="fa-solid fa-truck"></i> Frete grátis para todo o Brasil</p> -->
-                <p><i class="fa-solid fa-lock"></i> Compra segura</p>
             </div>
         </div>
 
