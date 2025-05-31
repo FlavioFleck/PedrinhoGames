@@ -57,7 +57,7 @@
         "platform": "Steam",
         "price": 200,
         "slug": "elden-ring",
-        "description": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+        "description": "A Ordem Áurea foi quebrada. Levante-se, Maculado, e seja guiado pela graça para empunhar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.\n\nELDEN RING, é um RPG de ação e fantasia ambientado em um mundo cheio de mistério e perigo. Um novo mundo de fantasia: Viaje pelas Terras Intermédias, um mundo de fantasia criado por Hidetaka Miyazaki, criador de DARK SOULS, e George R.R. Martin, autor do best-seller, AS CRÔNICAS de GELO e FOGO. Desvende os mistérios do poder do Anel Prístino. Encontre adversários com histórias profundas, personagens com suas próprias motivações únicas para ajudar ou atrapalhar seu progresso, e criaturas terríveis.",
         "requirements": {
             "recommended": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10/11\nProcessador: INTEL CORE I7-8700K or AMD RYZEN 5 3600X\nMemória: 16 GB de RAM\nPlaca de vídeo: NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB\nDirectX: Versão 12\nArmazenamento: 60 GB de espaço disponível\nPlaca de som: Windows Compatible Audio Device",
             "minimun": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10\nProcessador: INTEL CORE I5-8400 or AMD RYZEN 3 3300X\nMemória: 12 GB de RAM\nPlaca de vídeo: NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB\nDirectX: Versão 12\nArmazenamento: 60 GB de espaço disponível\nPlaca de som: Windows Compatible Audio Device"
