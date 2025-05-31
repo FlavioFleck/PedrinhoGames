@@ -1,0 +1,34 @@
+
+<main id="product-details" *ngIf="game">
+    <div class="product-container">
+        <div class="product-image">
+            <img [src]="game.images.pageImg" alt="Elden Ring">
+            <div class="requisitos">
+                <strong>Requisitos</strong><br><br>
+                <strong>MÍNIMOS:</strong><br>
+                {{ game.requirements.minimun }}
+                <br>
+                <br>
+                <strong>RECOMENDADOS:</strong> <br>
+                {{ game.requirements.recommended }}
+                
+            </div>
+        </div>
+        <div class="product-info">
+            <h1>{{ game.title }}</h1>
+            <p class="product-price">R${{ game.price }},00</p>
+            <p class="product-description">{{game.description}}</p>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" value="1" min="1">
+
+            <button class="btn-default btn-buy">Comprar</button>
+
+            <div class="additional-info">
+                <p><i class="fa-solid fa-truck"></i> Frete grátis para todo o Brasil</p>
+                <p><i class="fa-solid fa-lock"></i> Compra segura</p>
+            </div>
+        </div>
+
+    </div>
+</main>

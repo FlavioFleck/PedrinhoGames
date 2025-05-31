@@ -1,98 +1,257 @@
 [
     {
-        "img": "assets/images/game7.jpg",
+        "id": 1,
+        "images": {
+            "cardImg": "assets/images/game7.jpg",
+            "pageImg": ""
+        },
         "title": "Alan Wake 2",
         "platform": "PS5",
-        "price": 200 
+        "price": 200,
+        "slug": "alan-wake-2",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game8.jpg",
+        "id": 2,
+        "images": {
+            "cardImg": "assets/images/game8.jpg",
+            "pageImg": ""
+        },
         "title": "Batman: Arkham Knight",
         "platform": "Xbox",
-        "price": 79
+        "price": 79,
+        "slug": "batman-arkham-knight",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game1.jpg",
+        "id": 3,
+        "images": {
+            "cardImg": "assets/images/game1.jpg",
+            "pageImg": ""
+        },
         "title": "Clair Obscur: Expedition 33",
         "platform": "Steam",
-        "price": 250
+        "price": 250,
+        "slug": "clair-obscur-expedition-33",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game10.jpg",
+        "id": 4,
+        "images": {
+            "cardImg": "assets/images/game10.jpg",
+            "pageImg": "assets/images/elden_ring.jpg"
+        },
         "title": "Elden Ring",
         "platform": "Steam",
-        "price": 200
+        "price": 200,
+        "slug": "elden-ring",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game12.jpg",
+        "id": 5,
+        "images": {
+            "cardImg": "assets/images/game12.jpg",
+            "pageImg": ""
+        },
         "title": "Ghost of Tsushima",
         "platform": "PS5",
-        "price": 199
+        "price": 199,
+        "slug": "ghost-of-tsushima",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
-    {
-        "img": "assets/images/game4.jpg",
+    {   "id": 6,
+        "images": {
+            "cardImg": "assets/images/game4.jpg",
+            "pageImg": ""
+        },
         "title": "God of War: Ragnarok",
         "platform": "PS5",
-        "price": 349
+        "price": 349,
+        "slug": "god-of-war-ragnarok",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game14.jpg",
+        "id": 7,
+        "images": {
+            "cardImg": "assets/images/game14.jpg",
+            "pageImg": ""
+        },
         "title": "Hogwarts Legacy",
         "platform": "Steam",
-        "price": 139
+        "price": 139,
+        "slug": "hogwarts-legacy",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game9.jpg",
+        "id": 8,
+        "images": {
+            "cardImg": "assets/images/game9.jpg",
+            "pageImg": ""
+        },
         "title": "Hollow Knight: Silk Song",
         "platform": "Steam",
-        "price": 59
+        "price": 59,
+        "slug": "hollow-knight-silk-song",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game6.png",
+        "id": 9,
+        "images": {
+            "cardImg": "assets/images/game6.png",
+            "pageImg": ""
+        },
         "title": "Lego Marvel Super Heroes",
         "platform": "Steam",
-        "price": 30
+        "price": 30,
+        "slug": "lego-marvel-super-heroes",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game13.jpg",
+        "id": 10,
+        "images": {
+            "cardImg": "assets/images/game13.jpg",
+            "pageImg": ""
+        },
         "title": "Life is Strange: Remastered Collection",
         "platform": "Steam",
-        "price": 89
+        "price": 89,
+        "slug": "life-is-strange-remastered-collection",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game3.jpg",
+        "id": 11,
+        "images": {
+            "cardImg": "assets/images/game3.jpg",
+            "pageImg": ""
+        },
         "title": "Lost Records: Bloom & Rage",
         "platform": "PS5",
-        "price": 215
+        "price": 215,
+        "slug": "lost-records-bloom-&-rage",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game11.jpg",
+        "id": 12,
+        "images": {
+            "cardImg": "assets/images/game11.jpg",
+            "pageImg": ""
+        },
         "title": "Marvel's Spider-Man: Remastered",
         "platform": "Steam",
-        "price": 199
+        "price": 199,
+        "slug": "marvel's-spider-man-remastered",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
-        {
-        "img": "assets/images/game16.jpg",
+    {
+        "id": 13,
+        "images": {
+            "cardImg": "assets/images/game16.jpg",
+            "pageImg": ""
+        },
         "title": "Resident Evil 4 Remake",
         "platform": "Steam",
-        "price": 250
+        "price": 250,
+        "slug": "resident-evil-4-remake",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game15.jpg",
+        "id": 14,
+        "images": {
+            "cardImg": "assets/images/game15.jpg",
+            "pageImg": ""
+        },
         "title": "Split Fiction",
         "platform": "Steam",
-        "price": 149
+        "price": 149,
+        "slug": "split-fiction",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game2.jpg",
+        "id": 15,
+        "images": {
+            "cardImg": "assets/images/game2.jpg",
+            "pageImg": ""
+        },
         "title": "The Last Of Us Part II Remastered",
         "platform": "Steam",
-        "price": 250
+        "price": 250,
+        "slug": "the-last-of-us-part-2-remastered",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     },
     {
-        "img": "assets/images/game5.png",
-        "title": "Uncharted: Coleção Legado dos Ladrões",
+        "id": 16,
+        "images": {
+            "cardImg": "assets/images/game5.png",
+            "pageImg": ""
+        },
+        "title": "Uncharted: Legacy of Thieves Collection",
         "platform": "Steam",
-        "price": 250
+        "price": 250,
+        "slug": "uncharted-legacy-of-thieves-colletion",
+        "description": "description",
+        "requirements": {
+            "recommended": "Recomendados",
+            "minimun": " Minimo"
+        }
     }
 ]

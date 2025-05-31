@@ -6,9 +6,9 @@
     </div>
 
     <ul class="games-container" *ngIf="filteredGames.length > 0; else noResults" > 
-        <li class="game" *ngFor="let game of filteredGames">
+        <li class="game" *ngFor="let game of filteredGames" [routerLink]="['/produtos', game.slug]">
        
-            <img [src]="game.img" class="game-image">
+            <img [src]="game.images.cardImg" class="game-image">
             
             <h3 class="game-title">{{ game.title }}</h3>
             

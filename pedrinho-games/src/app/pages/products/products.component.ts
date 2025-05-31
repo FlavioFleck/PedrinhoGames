@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductService, Game } from '../../services/product.service';
 import { FormsModule } from '@angular/forms';
-
+import { RouterModule } from '@angular/router'
 @Component({
   selector: 'app-products',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
@@ -15,7 +15,9 @@ export class ProductsComponent implements OnInit {
   games: Game[] = [];
   searchTerm: string = '';
 
-  constructor(private productService: ProductService) {}
+  constructor(
+    private productService: ProductService
+  ) {}
 
   ngOnInit() {
     this.productService.getProducts().subscribe(data => {
