@@ -17,14 +17,14 @@
   border-radius: 10px;
 }
 
+#requisitos{
+  font-size: 16px;
+}
+
 .requisitos {
   font-size: 12px;
   line-height: 1.6;
   margin-top: 70px;
-}
-
-#requisitos{
-  font-size: 16px;
 }
 
 .product-info {

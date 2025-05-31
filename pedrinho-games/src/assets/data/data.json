@@ -43,7 +43,7 @@
         "slug": "clair-obscur-expedition-33",
         "description": "Clair Obscur: Expedition 33 é um RPG inovador em turnos com mecânicas singulares em tempo real, que tornam as batalhas mais envolventes e viciantes do que nunca. Explore um mundo fantástico, inspirado na Belle Époque da França, e enfrente os mais terríveis inimigos. Uma vez por ano, a Artífice desperta e pinta em seu monólito. Ela pinta o número amaldiçoado.\n\nE todos com aquela idade viram fumaça e desaparecem. Ano após ano, um número menor é pintado e mais de nós somos apagados. Amanhã, ela despertará e pintará '33'. E amanhã, partiremos em nossa missão final: destruir a Artífice, para que ela nunca mais possa pintar a morte.\n\nSomos a Expedição 33.",
         "requirements": {
-            "recommended": "Recomendados",
+            "recommended": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 11\nProcessador: Intel Core i7-12700K / AMD Ryzen 7 5800X\nMemória: 16 GB de RAM\nPlaca de vídeo: NVIDIA GeForce RTX 3060 Ti 8 GB / AMD Radeon RX 6800 XT 16 GB\nDirectX: Versão 12\nArmazenamento: 55 GB de espaço disponível\nOutras observações: SSD necessário.\nAs especificações recomendadas permitem um jogo a 1080p 60FPS em configurações altas.",
             "minimun": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10\nProcessador: Intel Core i7-8700K / AMD Ryzen 5 1600X\nMemória: 8 GB de RAM\nPlaca de vídeo: NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB\nDirectX: Versão 12\nArmazenamento: 55 GB de espaço disponível\nOutras observações: SSD necessário.\nAs especificações mínimas permitem um jogo a 1080p 30FPS em configurações baixas."
         }
     },
@@ -57,10 +57,10 @@
         "platform": "Steam",
         "price": 200,
         "slug": "elden-ring",
-        "description": "description",
+        "description": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
         "requirements": {
-            "recommended": "Recomendados",
-            "minimun": " Minimo"
+            "recommended": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10/11\nProcessador: INTEL CORE I7-8700K or AMD RYZEN 5 3600X\nMemória: 16 GB de RAM\nPlaca de vídeo: NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB\nDirectX: Versão 12\nArmazenamento: 60 GB de espaço disponível\nPlaca de som: Windows Compatible Audio Device",
+            "minimun": "Requer um processador e sistema operacional de 64 bits\nSO: Windows 10\nProcessador: INTEL CORE I5-8400 or AMD RYZEN 3 3300X\nMemória: 12 GB de RAM\nPlaca de vídeo: NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB\nDirectX: Versão 12\nArmazenamento: 60 GB de espaço disponível\nPlaca de som: Windows Compatible Audio Device"
         }
     },
     {
@@ -98,39 +98,39 @@
         "id": 7,
         "images": {
             "cardImg": "assets/images/loja/game14.jpg",
-            "pageImg": ""
+            "pageImg": "assets/images/produto/hogwarts_legacy.jpg"
         },
         "title": "Hogwarts Legacy",
         "platform": "Steam",
         "price": 139,
         "slug": "hogwarts-legacy",
-        "description": "description",
+        "description": "Hogwarts Legacy é um RPG de ação imersivo de mundo aberto. Agora você pode assumir o controle da ação e estar no centro de sua própria aventura no mundo bruxo.",
         "requirements": {
-            "recommended": "Recomendados",
-            "minimun": " Minimo"
+            "recommended": "Requer um processador e sistema operacional de 64 bits\nSO: 64-bit Windows 10\nProcessador: Intel Core i7-8700 (3.2Ghz) or AMD Ryzen 5 3600 (3.6 Ghz)\nMemória: 16 GB de RAM\nPlaca de vídeo: NVIDIA GeForce 1080 Ti or AMD Radeon RX 5700 XT or INTEL Arc A770\nDirectX: Versão 12\nArmazenamento: 85 GB de espaço disponível\nOutras observações: SSD, 1080p/60 fps, High Quality Settings",
+            "minimun": "Requer um processador e sistema operacional de 64 bits\nSO: 64-bit Windows 10\nProcessador: Intel Core i5-6600 (3.3Ghz) or AMD Ryzen 5 1400 (3.2Ghz)\nMemória: 16 GB de RAM\nPlaca de vídeo: NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB\nDirectX: Versão 12\nArmazenamento: 85 GB de espaço disponível\nOutras observações: SSD (Preferred), HDD (Supported), 720p/30 fps, Low Quality Settings"
         }
     },
     {
         "id": 8,
         "images": {
             "cardImg": "assets/images/loja/game9.jpg",
-            "pageImg": ""
+            "pageImg": "assets/images/produto/silk_song.jpeg"
         },
         "title": "Hollow Knight: Silk Song",
         "platform": "Steam",
         "price": 59,
         "slug": "hollow-knight-silk-song",
-        "description": "description",
+        "description": "Descubra um vasto reino assombrado em Hollow Knight: Silksong! A sequência do premiado jogo de ação e aventura. Explore, lute e sobreviva enquanto ascende ao topo de uma terra governada pela seda e pela música.",
         "requirements": {
-            "recommended": "Recomendados",
-            "minimun": " Minimo"
+            "recommended": "SO: Windows 10\nProcessador: Intel Core i5\nMemória: 8 GB de RAM\nPlaca de vídeo: GeForce GTX 560+\nDirectX: Versão 10\nArmazenamento: 9 GB de espaço disponível\nOutras observações: 1080p, 16:9 recommended",
+            "minimun": "SO: Windows 7\nProcessador: Intel Core 2 Duo E5200\nMemória: 4 GB de RAM\nPlaca de vídeo: GeForce 9800GTX+ (1GB)\nDirectX: Versão 10\nArmazenamento: 9 GB de espaço disponível\nOutras observações: 1080p, 16:9 recommended"
         }
     },
     {
         "id": 9,
         "images": {
             "cardImg": "assets/images/loja/game6.png",
-            "pageImg": ""
+            "pageImg": "assets/images/produto/lego_marvel.jpg"
         },
         "title": "Lego Marvel Super Heroes",
         "platform": "Steam",
@@ -146,13 +146,13 @@
         "id": 10,
         "images": {
             "cardImg": "assets/images/loja/game13.jpg",
-            "pageImg": ""
+            "pageImg": "assets/images/produto/life_is_strange.jpg"
         },
         "title": "Life is Strange: Remastered Collection",
         "platform": "Steam",
         "price": 89,
         "slug": "life-is-strange-remastered-collection",
-        "description": "description",
+        "description": "Vivencie a história de Life is Strange, vencedor do BAFTA, agora numa belíssima remasterização com visuais e animação aprimorados usando tecnologia de captura de movimento.",
         "requirements": {
             "recommended": "Recomendados",
             "minimun": " Minimo"

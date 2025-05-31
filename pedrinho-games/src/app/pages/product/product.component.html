@@ -4,7 +4,7 @@
         <div class="product-image">
             <img [src]="game.images.pageImg" alt="Elden Ring">
             <div class="requisitos" *ngIf="game.platform == 'Steam'">
-                <strong>Requisitos</strong><br><br>
+                <strong id="requisitos">REQUISITOS</strong><br><br>
                 <strong>MÍNIMOS:</strong><br>
                 <p style="white-space: pre-line;">{{ game.requirements.minimun }}</p>
                 <br>
@@ -25,7 +25,7 @@
             <button class="btn-default btn-buy">Adicionar ao carrinho</button>
 
             <div class="additional-info">
-                <p><i class="fa-solid fa-truck"></i> Frete grátis para todo o Brasil</p>
+                <!-- <p><i class="fa-solid fa-truck"></i> Frete grátis para todo o Brasil</p> -->
                 <p><i class="fa-solid fa-lock"></i> Compra segura</p>
             </div>
         </div>
