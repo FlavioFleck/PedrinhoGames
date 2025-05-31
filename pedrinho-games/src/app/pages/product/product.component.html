@@ -3,8 +3,13 @@
     <div class="product-container">
         <div class="product-image">
             <img [src]="game.images.pageImg" alt="Elden Ring">
+<<<<<<< HEAD
             <div class="requisitos">
                 <strong id="requisitos">REQUISITOS</strong><br><br>
+=======
+            <div class="requisitos" *ngIf="game.platform == 'Steam'">
+                <strong>Requisitos</strong><br><br>
+>>>>>>> af0c28832cf2c69216c6d4ac00d4fa98a8b756ca
                 <strong>MÍNIMOS:</strong><br>
                 <p style="white-space: pre-line;">{{ game.requirements.minimun }}</p>
                 <br>
